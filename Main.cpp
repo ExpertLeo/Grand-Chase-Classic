@@ -41,7 +41,7 @@ cMain::cMain()
 	VirtualProtect((LPVOID)dwEncCompareBypass, 0x60, OldP, &OldP);
 
 	/* OnOk */
-	Send_StrongLevelUpReq = (oSend_StrongLevelUpReq)FindSignaturePointer(2, (PBYTE)"\xC7\x45\x00\x00\x00\x00\x00\xC7\x45\x00\x00\x00\x00\x00\x89\x7D\x38\xE8\x00\x00\x00\x00\x8B\x8F\x00\x00\x00\x00\x8D\x45\x30", "xx?????xx?????xxxx????xx????xxx");
+	Send_StrongLevelUpReq = (oSend_StrongLevelUpReq)FindSignaturePointer(3, (PBYTE)"\xC7\x45\x00\x00\x00\x00\x00\xC7\x45\x00\x00\x00\x00\x00\x89\x7D\x38\xE8\x00\x00\x00\x00\x8B\x8F\x00\x00\x00\x00\x8D\x45\x30", "xx?????xx?????xxxx????xx????xxx");
 
 	printf("Send_StrongLevelUpReq %x \n", Send_StrongLevelUpReq);
 

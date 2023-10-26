@@ -1133,7 +1133,7 @@ class cKCItemManager
 public:
 	char pad_0x0000[0xA0]; //0x0000
 	std::map<DWORD, KItem*> ItemList; //0x00A0 
-	char pad_0x00A8[0x4C]; //0x00A8
+	char pad_0x00A8[0x48]; //0x00A8
 	stdext::hash_map<DWORD, cItemInfo*> m_mapDB; //0x00F0 
 	char pad_0x0114[0xD0]; //0x0114
 
