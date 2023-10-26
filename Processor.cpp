@@ -174,7 +174,8 @@ DWORD WINAPI Hook(LPVOID lpAlgs)
 	
 	DWORD dwGrandChase = (DWORD)GetModuleHandleA(NULL);
 
-	
+	Sleep(15000);
+
 	while (!dwD3D9) 
 	{
 		Sleep(100);
