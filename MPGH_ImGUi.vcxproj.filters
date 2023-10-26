@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{66455a9e-f1a2-4717-ba08-3eadd871fb5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Classes">
+      <UniqueIdentifier>{893a4725-6c5c-46b3-96e2-913dd7661f5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\CPP">
+      <UniqueIdentifier>{b65bad21-0d73-471c-97da-160b343c7ab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="GrandChase">
+      <UniqueIdentifier>{47297e7e-098a-4cdf-8c43-a7ccc4c802b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GrandChase\Main">
+      <UniqueIdentifier>{48aa24d6-0533-4e63-9f75-30165f523eb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GrandChase\Game">
+      <UniqueIdentifier>{dfe8577a-aa5e-4dc0-8e0f-fef255bc74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Menu">
+      <UniqueIdentifier>{94c96c6e-cbba-4dbe-a080-a3cdc44bf17a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GrandChase\EH">
+      <UniqueIdentifier>{ec89b852-6eed-41d0-af42-aa55673b19f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GrandChase\EH\Xor">
+      <UniqueIdentifier>{6a538a4b-87dc-44bf-a59c-248e5a7aa326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GrandChase\Resource">
+      <UniqueIdentifier>{422e2bd8-d6f2-4a0d-bc5d-f75e45866415}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imconfig.h">
+      <Filter>GUI\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>GUI\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>GUI\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_rect_pack.h">
+      <Filter>GUI\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_textedit.h">
+      <Filter>GUI\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_truetype.h">
+      <Filter>GUI\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="include.h">
+      <Filter>GUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx9.h">
+      <Filter>GUI\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook.h">
+      <Filter>GUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>GUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>GUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>GrandChase\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>GrandChase\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>GUI\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Virtualizer\VirtualizerSDK.h">
+      <Filter>GrandChase</Filter>
+    </ClInclude>
+    <ClInclude Include="EH\Xor.h">
+      <Filter>GrandChase\EH\Xor</Filter>
+    </ClInclude>
+    <ClInclude Include="EH\XorInc.h">
+      <Filter>GrandChase\EH\Xor</Filter>
+    </ClInclude>
+    <ClInclude Include="EH\XorStr.h">
+      <Filter>GrandChase\EH\Xor</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimer.h">
+      <Filter>GrandChase\EH</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>GrandChase\Resource</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="imgui.cpp">
+      <Filter>GUI\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>GUI\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDLL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Processor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx9.cpp">
+      <Filter>GUI\CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>GrandChase\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>GUI\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
+      <Filter>GrandChase\Resource</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
